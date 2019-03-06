@@ -69,7 +69,6 @@
                                 </state>
                                 <connections>
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4y2-9a-4Uo"/>
-                                    <action selector="onSignup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6CP-uj-gM8"/>
                                 </connections>
                             </button>
                         </subviews>
