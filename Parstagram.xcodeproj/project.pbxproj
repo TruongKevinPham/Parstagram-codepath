@@ -10,6 +10,7 @@
 		0F76A9C4CC9918D99A5AE436 /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5591C1456631282879AE3684 /* Pods_ParstagramUITests.framework */; };
 		9DAFA15A17E8FBE3EFF5404C /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89646B9336E198456C2EA16F /* Pods_Parstagram.framework */; };
 		B18A3B50B95F93AC6D533BF9 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D603859BB8F4075D0074C0 /* Pods_ParstagramTests.framework */; };
+		D914370222302EE500EB72FF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D914370122302EE500EB72FF /* CameraViewController.swift */; };
 		D99057AD222D2840009DE2FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99057AC222D2840009DE2FD /* AppDelegate.swift */; };
 		D99057B2222D2840009DE2FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99057B0222D2840009DE2FD /* Main.storyboard */; };
 		D99057B4222D2841009DE2FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99057B3222D2841009DE2FD /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		A3D603859BB8F4075D0074C0 /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D4684DE07908498DB8425A /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		BB60FAECC8A8C4F647BB0F68 /* Pods-ParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D914370122302EE500EB72FF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D99057A9222D2840009DE2FD /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99057AC222D2840009DE2FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D99057B1222D2840009DE2FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				D99057B8222D2841009DE2FD /* Info.plist */,
 				D99057DA222D2A2F009DE2FD /* LoginViewController.swift */,
 				D99057DC222D2A4E009DE2FD /* FeedViewController.swift */,
+				D914370122302EE500EB72FF /* CameraViewController.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99057DB222D2A2F009DE2FD /* LoginViewController.swift in Sources */,
+				D914370222302EE500EB72FF /* CameraViewController.swift in Sources */,
 				D99057DD222D2A4E009DE2FD /* FeedViewController.swift in Sources */,
 				D99057AD222D2840009DE2FD /* AppDelegate.swift in Sources */,
 			);
