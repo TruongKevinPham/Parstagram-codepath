@@ -150,6 +150,11 @@
                         <viewLayoutGuide key="safeArea" id="2Ct-ct-wLO"/>
                     </view>
                     <navigationItem key="navigationItem" id="wPg-dZ-XCI">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="C6b-Ee-R8v">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="JTh-aY-NhL" id="8F5-x7-VoW"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="wyQ-EM-Z4e">
                             <connections>
                                 <segue destination="Kj6-PG-eRd" kind="presentation" id="uH1-EF-Zaa"/>
@@ -216,7 +221,7 @@
         <!--Navigation Controller-->
         <scene sceneID="BRB-oO-TNT">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MVu-Kn-1ke" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="MVu-Kn-1ke" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Uky-j1-WeB">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
